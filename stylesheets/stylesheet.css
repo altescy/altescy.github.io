@@ -144,6 +144,7 @@ ul li {
 .section-container>h2 {
     padding-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4rem;
 }
 
 #about {
