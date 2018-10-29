@@ -47,14 +47,14 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 34em) and (max-width: 64em) {
     .btn {
       padding: 0.6rem 0.9rem;
       font-size: 0.9rem;
     }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 34em) {
     .btn {
       display: block;
       width: 100%;
@@ -93,7 +93,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 34em) and (max-width: 64em) {
     .page-header {
         padding: 3rem 4rem;
     }
@@ -102,7 +102,7 @@ a:hover {
     }
   }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 34em) {
     .page-header {
         padding: 2rem 2rem;
     }
@@ -130,15 +130,16 @@ a:hover {
 
 .about-content img {
     border-radius: 50%;
-    margin: .9rem 0 0 0;
+    margin: 0;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
-ul.about-list {
+.about-desc ul {
+    padding: 0;
     list-style-type: none;
 }
 
-ul.about-list li {
+.about-desc li {
     padding-bottom: 0.7rem;
 }
 
@@ -150,11 +151,11 @@ ul.about-list li {
         float: left;
         margin-bottom: 0;
     }
-    ul.about-list {
+    .about-desc {
         text-align: left;
         padding-left: 15rem;
     }
-    ul.about-list li>strong {
+    .about-desc li>strong {
         display: inline-block;
         width: 9rem;
         padding-right: 1rem;
@@ -172,11 +173,11 @@ ul.about-list li {
         float: left;
         margin-bottom: 0;
     }
-    ul.about-list {
+    .about-desc {
         text-align: left;
         padding-left: 10rem;
     }
-    ul.about-list li>strong {
+    .about-desc li>strong {
         display: inline-block;
         width: 9rem;
         padding-right: 1rem;
@@ -194,11 +195,11 @@ ul.about-list li {
         float: none;
         margin-bottom: 2rem;
     }
-    ul.about-list {
+    .about-desc {
         text-align: center;
         padding-left: 0;
     }
-    ul.about-list li>strong {
+    .about-desc li>strong {
         display: block;
         width: auto;
         padding-right: 0;
@@ -214,6 +215,7 @@ ul.about-list li {
     margin: 2rem 0;
     border-top: solid 1px #eff0f1;
     text-align: center;
+    font-size: 11px;
 }
 
 .site-footer-owner {
