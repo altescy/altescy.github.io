@@ -8,6 +8,7 @@ const vm = new Vue({
     .then(response => {
         this.results = response.data.map(e => {
             return {
+                "url": e.url,
                 "title": e.title,
                 "created_at": e.created_at,
                 "date": (new Date(e.created_at)).toLocaleDateString(),
