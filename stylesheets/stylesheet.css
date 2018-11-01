@@ -9,6 +9,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+section:nth-child(2n+1) {
+    background-color: #FFFFFF;
+}
+
 a {
     color: #1e6bb8;
     text-decoration: none;
@@ -16,6 +20,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    padding-bottom: 1.2rem;
 }
 
 .btn {
@@ -47,14 +60,14 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 34em) and (max-width: 64em) {
     .btn {
       padding: 0.6rem 0.9rem;
       font-size: 0.9rem;
     }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 34em) {
     .btn {
       display: block;
       width: 100%;
@@ -75,11 +88,12 @@ a:hover {
 }
 
 .page-header h1 {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .page-header h4 {
+    padding-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -91,30 +105,50 @@ a:hover {
     .page-header h1 {
         font-size: 84px;
     }
+    .page-header h4 {
+        font-size: 1.5rem;
+    }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 34em) and (max-width: 64em) {
     .page-header {
         padding: 3rem 4rem;
     }
      .page-header h1 {
         font-size: 60px;
     }
+    .page-header h4 {
+        font-size: 1.5rem;
+    }
   }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 34em) {
     .page-header {
         padding: 2rem 2rem;
     }
     .page-header h1 {
         font-size: 42px;
     }
+    .page-header h4 {
+        font-size: 1.2rem;
+    }
+}
 
+.section-container {
+    max-width: 920px;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-container>h2 {
+    padding-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4rem;
 }
 
 #about {
     background: #FFFFFF;
-    padding: 7rem 0;
 }
 
 .about-container {
@@ -123,25 +157,15 @@ a:hover {
     text-align: center;
 }
 
-.about-container>h2 {
-    padding-bottom: 2rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .about-content img {
     border-radius: 50%;
-    margin: .9rem 0 0 0;
+    margin: 0;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
-ul.about-list {
-    list-style-type: none;
+.about-desc ul {
+    padding: 0;
 }
-
-ul.about-list li {
-    padding-bottom: 0.7rem;
-}
-
 
 @media screen and (min-width: 64em) {
     .about-content img {
@@ -150,11 +174,11 @@ ul.about-list li {
         float: left;
         margin-bottom: 0;
     }
-    ul.about-list {
+    .about-desc {
         text-align: left;
         padding-left: 15rem;
     }
-    ul.about-list li>strong {
+    .about-desc li>strong {
         display: inline-block;
         width: 9rem;
         padding-right: 1rem;
@@ -172,11 +196,11 @@ ul.about-list li {
         float: left;
         margin-bottom: 0;
     }
-    ul.about-list {
+    .about-desc {
         text-align: left;
         padding-left: 10rem;
     }
-    ul.about-list li>strong {
+    .about-desc li>strong {
         display: inline-block;
         width: 9rem;
         padding-right: 1rem;
@@ -194,11 +218,11 @@ ul.about-list li {
         float: none;
         margin-bottom: 2rem;
     }
-    ul.about-list {
+    .about-desc {
         text-align: center;
         padding-left: 0;
     }
-    ul.about-list li>strong {
+    .about-desc li>strong {
         display: block;
         width: auto;
         padding-right: 0;
@@ -214,6 +238,7 @@ ul.about-list li {
     margin: 2rem 0;
     border-top: solid 1px #eff0f1;
     text-align: center;
+    font-size: 11px;
 }
 
 .site-footer-owner {
