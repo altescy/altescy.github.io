@@ -31,6 +31,36 @@ ul li {
     padding-bottom: 1.2rem;
 }
 
+.card {
+    height: 13rem;
+    margin-bottom: 1rem;
+    color: #505050;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: #FBFBFB;
+}
+
+.card a {
+    color: #505050;
+    text-decoration: none;
+}
+
+.card-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+p.card-text {
+    color: #858585;
+    max-height: 7rem;
+    overflow: hidden;
+    text-align: left;
+}
+
 .btn {
     display: inline-block;
     margin-bottom: 1rem;

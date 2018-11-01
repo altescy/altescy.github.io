@@ -83,10 +83,19 @@
         <section id="posts">
             <div class="section-container">
                 <h2>Posts</h2>
-                <ul>
-                    <li><a href="https://qiita.com/altescy/items/20bc54fa27b5885ac588" target="_blank">ニューラル生成モデルと文書の表現学習</a></li>
-                    <li><a href="https://qiita.com/altescy/items/60a6def66f13267f6347" target="_blank">mlxtendのススメ</a></li>
-                </ul>
+                <div class="row qiita-posts">
+                    <div class="col-md-6 mx-auto" v-for="result in results">
+                        <div class="card mx-auto">
+                            <a :href="result.url" target="_blank">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ result.title }}</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">{{ result.date }}</h6>
+                                    <p class="card-text">{{ result.abst }}</p>
+                                </div>
+                            </a>
+                        </div>
+                   </div>
+                </div>
             </div>
         </section>
         <footer class="site-footer">
@@ -94,5 +103,8 @@
                 <span class="site-footer-owner"><a href="https://altescy.jp">altescy.jp</a> / <a href="https://altescy.github.io">altescy.github.io</a> is maintained by <a href="https://github.com/altescy">altescy</a>.</span>
             </div>
         </footer>
+        <script src="https://unpkg.com/vue"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
