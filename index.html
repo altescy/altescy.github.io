@@ -83,19 +83,33 @@
         <section id="posts">
             <div class="section-container">
                 <h2>Posts</h2>
-                <div class="row qiita-posts">
-                    <div class="col-md-6 mx-auto" v-for="result in results">
-                        <div class="card mx-auto">
-                            <a :href="result.url" target="_blank">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ result.title }}</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">{{ result.date }}</h6>
-                                    <p class="card-text">{{ result.abst }}</p>
-                                </div>
-                            </a>
+                <div class="post-content">
+                    <h4>Qiita</h4>
+                    <div class="row" id="qiita-posts">
+                        <div class="col-md-6 mx-auto" v-for="result in results">
+                            <div class="card mx-auto">
+                                <a :href="result.url" target="_blank">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ result.title }}</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">{{ result.date }}</h6>
+                                        <p class="card-text">{{ result.abst }}</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section id="links">
+            <div class="section-container">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://qiita.com/altescy/">Qiita</a></li>
+                    <li><a href="https://github.com/altescy/">GitHub</a></li>
+                    <li><a href="https://scrapbox.io/altescy/">Scrapbox</a></li>
+                    <li><a href="http://altescy.hatenablog.com/">はてなブログ</a></li>
+                </ul>
             </div>
         </section>
         <footer class="site-footer">

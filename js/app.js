@@ -1,5 +1,5 @@
-const vm = new Vue({
-  el: '.qiita-posts',
+const qiita_posts = new Vue({
+  el: '#qiita-posts',
   data: {
     results: []
   },
@@ -12,7 +12,7 @@ const vm = new Vue({
           "title": e.title,
           "created_at": e.created_at,
           "date": (new Date(e.created_at)).toLocaleDateString(),
-          "abst": e.rendered_body.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'').slice(0, 200) + "...",
+          "abst": e.rendered_body.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'').slice(0, 100) + "...",
         };
       });
       this.results.sort(function(a, b) {
