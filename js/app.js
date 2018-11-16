@@ -12,7 +12,7 @@ const qiita_posts = new Vue({
           "title": e.title,
           "created_at": e.created_at,
           "date": (new Date(e.created_at)).toLocaleDateString(),
-          "abst": e.rendered_body.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'').slice(0, 100) + "...",
+          "abst": e.rendered_body.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'').slice(0, 200) + "...",
         };
       });
       this.results.sort(function(a, b) {
