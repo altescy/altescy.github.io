@@ -92,17 +92,17 @@ p.card-text {
 
 @media screen and (min-width: 34em) and (max-width: 64em) {
     .btn {
-      padding: 0.6rem 0.9rem;
-      font-size: 0.9rem;
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
     }
 }
 
 @media screen and (max-width: 34em) {
     .btn {
-      display: block;
-      width: 100%;
-      padding: 0.75rem;
-      font-size: 0.9rem;
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
     }
     .btn + .btn {
         margin-top: 1rem;
@@ -144,13 +144,13 @@ p.card-text {
     .page-header {
         padding: 3rem 4rem;
     }
-     .page-header h1 {
+    .page-header h1 {
         font-size: 60px;
     }
     .page-header h4 {
         font-size: 1.5rem;
     }
-  }
+}
 
 @media screen and (max-width: 34em) {
     .page-header {
