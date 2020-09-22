@@ -32,7 +32,7 @@ projects:
   role: Developer
   timeline: "March 2020 - Present"
   repo: https://github.com/altescy/colt
-  summary: A configuration utility for Python object inspired by AllenNLP.
+  summary: A configuration utility for Python objects inspired by AllenNLP.
   tags: ["hobby", "python", "ml"]
 
 - name: logexp
@@ -53,7 +53,7 @@ projects:
   role: Developer
   timeline: "May 2019 - June 2019"
   repo: "https://github.com/altescy/slide-cloud"
-  summary: "Online slide show editor which enable you to write your slides in Markdown on a browser."
+  summary: "Online slide show editor which enables you to write your slides in Markdown on a browser."
   tags: ["hobby", "go"]
 
 - name: bookshelf
