@@ -1,0 +1,18 @@
+# section information
+section:
+  name: Achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: ISUCON 8 Final Contest
+  image: images/achievements/isucon8_final.jpeg
+  summary: "Advance to the [ISUCON 8](http://isucon.net/archives/52388756.html) finals. Blog post is [here](http://altescy.hatenablog.com/entry/2018/10/27/165019)."
+
+- title: ACM-ICPC Asia Yokohama Regional Contest 2018
+  image: images/achievements/icpc_asia_2018.jpeg
+  summary: "Our team (kstm) advanced to the [Asia Yokohama Regional Contest 2018](https://icpc.iisf.or.jp/2018-yokohama/)."
