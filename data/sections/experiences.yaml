@@ -49,7 +49,7 @@ experiences:
     start: September 2019
     end: October 2019
     responsibilities:
-    - Improve a medical paper recommendation system by using NLP technology and Elasticsearch.
+    - Improve a medical paper recommendation system by using NLP technologies and Elasticsearch.
 
 - company:
     name: rakumo, Inc.
@@ -62,7 +62,7 @@ experiences:
     end: February 2020
     responsibilities:
     - Build an email classification system which facilitates work efficiency of customer support.
-    - Build a retrieval system for searching past similar cases from email sent to customer support.
+    - Build a retrieval system for searching past similar cases from an email sent to customer support.
 
 - company:
     name: Shinshu University
@@ -80,7 +80,7 @@ experiences:
     name: Wantedly, Inc.
     url: "https://wantedlyinc.com/ja"
     location: Tokyo, Japan
-    overview: Wantedly provides social networking service for business.
+    overview: Wantedly provides social networking services for business.
   positions:
   - designation: Intern
     start: August 2017
