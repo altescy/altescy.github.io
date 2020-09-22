@@ -25,7 +25,7 @@ projects:
   timeline: "January 2020 - August 2020"
   repo: "https://github.com/kajyuuen/allennlp-book"
   url: "https://www.amazon.co.jp/dp/B08GLG39DF/ref=cm_sw_r_tw_dp_x_H-zAFbJXQ4JDY"
-  summary: A book for beginners in AllenNLP which is a neural natural language processing framework.
+  summary: A book for beginners in AllenNLP which is a natural language processing framework.
   tags: ["hobby", "python", "ml"]
 
 - name: colt
@@ -42,9 +42,23 @@ projects:
   summary: A simple experiment manager for machine learning.
   tags: ["hobby", "python", "ml"]
 
-# - name: bookshelf
-#   role: Developer
-#   timeline: "August 2020 - Present"
-#   repo: https://github.com/altescy/bookshelf
-#   summary: Ebook management system on S3 compatible storage which provides OPDS feed.
-#   tags: ["hobby", "go"]
+- name: xallennlp
+  role: Developer
+  timeline: "June 2020 - Present"
+  repo: "https://github.com/altescy/xallennlp"
+  summary: "xallennlp provides some additional functions for AllenNLP such as MLflow support."
+  tags: ["hobby", "python", "ml"]
+
+- name: slide-cloud
+  role: Developer
+  timeline: "May 2019 - June 2019"
+  repo: "https://github.com/altescy/slide-cloud"
+  summary: "Online slide show editor which enable you to write your slides in Markdown on a browser."
+  tags: ["hobby", "go"]
+
+- name: bookshelf
+  role: Developer
+  timeline: "August 2020 - Present"
+  repo: https://github.com/altescy/bookshelf
+  summary: Ebook management system on S3 compatible storage which provides OPDS feed.
+  tags: ["hobby", "go"]
