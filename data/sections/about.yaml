@@ -64,5 +64,14 @@ softSkills:
   percentage: 75
   color: "#00ACD7"
 - name: Rust
-  percentage: 55
+  percentage: 60
   color: "#DEA584"
+- name: Docker
+  percentage: 75
+  color: "#384D54"
+- name: TypeScript
+  percentage: 70
+  color: "#2B7489"
+- name: Vue.js
+  percentage: 65
+  color: "#2C3E50"
