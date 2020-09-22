@@ -49,6 +49,10 @@ socialLinks:
   icon: "fas fa-pen-nib"
   url: "http://altescy.hatenablog.com/"
 
+- name: Qiita
+  icon: "fas fa-search"
+  url: "http://qiita.com/altescy"
+
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
