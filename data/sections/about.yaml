@@ -1,0 +1,64 @@
+# section information
+section:
+  name: About
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: Master's Student
+# your company information
+company:
+  name: Nara Institute of Science and Technology
+  url: "https://www.naist.jp/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am currently studying computer science at Nara Institute of Science and Technology. My research topic is Natural Language Processing, especially Information Extraction from scientific papers. I am also interested in other machine learning and web technologies, such as MLOps, databases, IaaS, and so on.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "altescy@fastmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/altescy"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/yasuhiro-yamaguchi-48a09b128/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/altescy"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/altescy"
+
+- name: Speaker Deck
+  icon: "fab fa-speaker-deck"
+  url: "https://speakerdeck.com/altescy"
+
+- name: Hatena Blog
+  icon: "fas fa-pen-nib"
+  url: "http://altescy.hatenablog.com/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Python
+  percentage: 85
+  color: "#2B5B84"
+- name: Go
+  percentage: 75
+  color: "#00ACD7"
+- name: Rust
+  percentage: 55
+  color: "#DEA584"

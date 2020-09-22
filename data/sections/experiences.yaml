@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Nara Institute of Science and Technology
+    url: "https://www.naist.jp"
+    location: Nara, Japan
+    # company overview
+    overview: Nara Institute of Science and Technology (NAIST) is a Japanese national university located in Kansai Science City. [Watanabe Laboratory](https://nlp.naist.jp/en/) is a laboratory focusing on natural language processing at NAIST.
+  positions:
+  - designation: Master's Student at Watanabe / Matsumoto Lab
+    start: April 2019
+    responsibilities:
+    - I am focusing on information extraction from scientific papers.
+    - Publish a paper about relation extraction from papers of material science at [ANLP 2020](https://www.anlp.jp/nlp2020/program.html#G6-3).
+
+- company:
+    name: Cookpad, Inc.
+    url: "https://info.cookpad.com/"
+    location: Tokyo, Japan
+    overview: Cookpad is a tech company building a community platform for people to share recipe ideas and cooking tips.
+  positions:
+  - designation: Part-time Job
+    start: February 2020
+    responsibilities:
+    - Write a paper about a machine learning system.
+
+  - designation: Inetrn
+    start: August 2019
+    end: September 2019
+    responsibilities:
+    - Build a machine learning system which automatically detects non-ingredient items in a user-posted online recipe.
+
+- company:
+    name: M3, Inc.
+    url: "https://corporate.m3.com/"
+    location: Tokyo, Japan
+    overview: M3 provides a multitude of Internet services for physicians and other healthcare professionals.
+  positions:
+  - designation: Intern
+    start: September 2019
+    end: October 2019
+    responsibilities:
+    - Improve a medical paper recommendation system by using NLP technology and Elasticsearch.
+
+- company:
+    name: rakumo, Inc.
+    url: "https://corporate.rakumo.com/"
+    location: Tokyo, Japan
+    overview: rakumo provides G Suit applied office tools.
+  positions:
+  - designation: Part-time Job
+    start: July 2017
+    end: February 2020
+    responsibilities:
+    - Build an email classification system which facilitates work efficiency of customer support.
+    - Build a retrieval system for searching past similar cases from email sent to customer support.
+
+- company:
+    name: Shinshu University
+    url: "https://www.shinshu-u.ac.jp/english/"
+    location: Nagano, Japan
+    overview: Shinshu University is a Japanese national university located in Nagano Prefecture.
+  positions:
+  - designation: Student
+    start: April 2015
+    end: March 2019
+    responsibilities:
+    - I studied unsupervised machine translation in [丸山・宮尾・白井 研究室](http://www.cs.shinshu-u.ac.jp/labs/).
+
+- company:
+    name: Wantedly, Inc.
+    url: "https://wantedlyinc.com/ja"
+    location: Tokyo, Japan
+    overview: Wantedly provides social networking service for business.
+  positions:
+  - designation: Intern
+    start: August 2017
+    end : September 2017
+    responsibilities:
+    - Improve OCR performance on a business card management application.

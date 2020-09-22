@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+projects:
+- name: AllenNLP入門
+  role: Author
+  # logo: images/to/logo.png
+  timeline: "January 2020 - August 2020"
+  repo: "https://github.com/kajyuuen/allennlp-book"
+  url: "https://www.amazon.co.jp/dp/B08GLG39DF/ref=cm_sw_r_tw_dp_x_H-zAFbJXQ4JDY"
+  summary: A Book for beginners in AllenNLP which is a natural language processing framework.
+  tags: ["hobby", "python", "ml"]
+
+- name: colt
+  role: Developer
+  timeline: "March 2020 - Present"
+  repo: https://github.com/altescy/colt
+  summary: A configuration utility for Python object inspired by AllenNLP.
+  tags: ["hobby", "python", "ml"]
+
+- name: logexp
+  role: Developer
+  timeline: "January 2020 - Present"
+  repo: https://github.com/altescy/logexp
+  summary: A simple experiment manager for machine learning.
+  tags: ["hobby", "python", "ml"]
+
+# - name: bookshelf
+#   role: Developer
+#   timeline: "August 2020 - Present"
+#   repo: https://github.com/altescy/bookshelf
+#   summary: Ebook management system on S3 compatible storage which provides OPDS feed.
+#   tags: ["hobby", "go"]
