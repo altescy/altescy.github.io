@@ -1,7 +1,14 @@
 ---
 title: "Hello, world!"
 date: 2020-09-25T00:12:05+09:00
-draft: false
+author:
+    name: "Yasuhiro Yamaguchi"
+    image: "/images/logo.png"
+menu:
+  sidebar:
+    name: "Hello, World!"
+    identifier: hello
+    weight: 1
 ---
 
 
