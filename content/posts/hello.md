@@ -1,7 +1,7 @@
 ---
 title: "Hello, world!"
 date: 2020-09-25T00:12:05+09:00
-draft: true
+draft: false
 ---
 
 
