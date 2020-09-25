@@ -1,4 +1,4 @@
-baseURL: https://altescy.jp/
+baseURL: "/"
 languageCode: en-us
 title: "altescy"
 theme: "toha"
