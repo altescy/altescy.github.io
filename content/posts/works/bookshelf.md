@@ -2,7 +2,7 @@
 title: "電子書籍をオンライン管理する"
 date: 2020-09-26T10:30:21+09:00
 draft: true
-hero: "/images/posts/works/bookshelf/bookshelf.png"
+hero: "/images/posts/works/bookshelf/hero.jpg"
 author:
     name: "Yasuhiro Yamaguchi"
     image: "/images/logo.png"
