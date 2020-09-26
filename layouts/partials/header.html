@@ -18,11 +18,25 @@
 <!--================= custom style overrides =========================-->
 <link rel="stylesheet" href="/assets/css/style.css" />
 
-<!--================= twitter card =========================-->
-{{ if .Params.hero }}
-    <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image:src" content='{{ partial "helpers/get-hero.html" . }}'/>
+<!--================= sns card =========================-->
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink | absURL }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{ if .IsPage }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="og:image" content='{{ partial "helpers/get-hero.html" . | absURL }}'/>
+<meta name="og:image:url" content='{{ partial "helpers/get-hero.html" . | absURL }}'/>
 {{ else }}
-    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary"/>
+{{ end }}
+{{ if .Params.description }}
+    {{ with .Params.description }}
+    <meta property="og:description" content="{{ . }}">
+    <meta property="twitter:description" content="{{ . }}">
+    {{ end }}
+{{ else }}
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="twitter:description" content="{{ .Site.Params.description }}">
 {{ end }}
