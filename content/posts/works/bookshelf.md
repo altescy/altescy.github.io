@@ -141,7 +141,22 @@ $ export BOOKSHELF_STORAGE_URL=file:///`pwd`/files
 $ bookshelf
 ```
 
+### Docker
+
+Dockerイメージをpullして実行します．以下は上記の例と同じようにSQLite3とローカル
+ストレージを利用します．
+```
+$ docker pull altescy/bookshelf:1.2.0
+$ docker run -d \
+    -v `pwd`:/data \
+    -p 8080:8080 \
+    -e BOOKSHELF_DB_URL=sqlite3:///data/bookshelf.db \
+    -e BOOKSHELF_STORAGE_URL=file:///data/files \
+    altescy/bookshelf:1.2.0
+```
+
 ### docker-compose
+
 以下はdocker-composeを用いた例で，データベースにPostgres，ストレージにMinIO
 を利用しています．ストレージに他のAWS互換ストレージを利用する場合は
 `BOOKSHELF_STORAGE_URL`と`BOOKSHELF_AWS_*`の値を適当なものに置き換えてください．
