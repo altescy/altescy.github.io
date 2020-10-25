@@ -62,3 +62,17 @@ projects:
   repo: https://github.com/altescy/bookshelf
   summary: Ebook management system on S3 compatible storage which provides OPDS feed.
   tags: ["hobby", "go"]
+
+- name: "学術論文からのポリマー・溶媒の固有表現および溶解性の自動抽出 [ANLP 2020]"
+  role: Author
+  timeline: "July 2019 - January 2020"
+  url: "https://www.anlp.jp/nlp2020/program.html#G6-3"
+  summary: "A paper of named entity and polymer-solvent relation extraction from material science paper."
+  tags: ["academic", "nlp", "ml"]
+
+- name: "Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach [W-NUT 2020]"
+  role: Author
+  timeline: "August 2019 - July 2020"
+  url: "https://noisy-text.github.io/2020/pdf/2020.d200-1.11.pdf"
+  summary: "A paper about a ML model for non-ingredient detection in online user-generated recipes."
+  tags: ["academic", "nlp", "ml"]
