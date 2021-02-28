@@ -49,9 +49,9 @@ projects:
   summary: "xallennlp provides some additional functions for AllenNLP such as MLflow support."
   tags: ["hobby", "python", "ml"]
 
-- name: PdpCLI
+- name: pdpcli
   role: Developer
-  timeline: "February - Present"
+  timeline: "February 2021 - Present"
   repo: https://github.com/altescy/pdpcli
   summary: "A command line tool to build a pandas pipeline from a configuration file. "
   tags: ["hobby", "python", "ml"]
