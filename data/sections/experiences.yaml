@@ -11,14 +11,26 @@ section:
 experiences:
 - company:
     name: Cookpad, Inc.
-    url: "https://info.cookpad.com"
+    url: "https://info.cookpad.com/"
     location: Kanagawa, Japan
     overview: Cookpad is a tech company building a community platform for people to share recipe ideas and cooking tips.
   positions:
-  - designation:
+  - designation: Research Engineer
     start: April 2021
     responsibilities:
       - Build machine learning systems with NLP technologies.
+  - designation: Part-time Job
+    start: February 2020
+    end: March 2021
+    responsibilities:
+    - Publish a paper ["Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach"](https://noisy-text.github.io/2020/pdf/2020.d200-1.11.pdf) in W-NUT 2020 workshop.
+
+  - designation: Inetrn
+    start: August 2019
+    end: September 2019
+    responsibilities:
+    - Build a machine learning system which automatically detects non-ingredient items in a user-posted online recipe.
+
 - company:
     name: Nara Institute of Science and Technology
     url: "https://www.naist.jp"
@@ -32,23 +44,6 @@ experiences:
     responsibilities:
     - I am focusing on information extraction from scientific papers.
     - Publish a paper about relation extraction from papers of material science at [ANLP 2020](https://www.anlp.jp/nlp2020/program.html#G6-3).
-
-- company:
-    name: Cookpad, Inc.
-    url: "https://info.cookpad.com/"
-    location: Tokyo, Japan
-    overview: Cookpad is a tech company building a community platform for people to share recipe ideas and cooking tips.
-  positions:
-  - designation: Part-time Job
-    start: February 2020
-    responsibilities:
-    - Publish a paper ["Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach"](https://noisy-text.github.io/2020/pdf/2020.d200-1.11.pdf) in W-NUT 2020 workshop.
-
-  - designation: Inetrn
-    start: August 2019
-    end: September 2019
-    responsibilities:
-    - Build a machine learning system which automatically detects non-ingredient items in a user-posted online recipe.
 
 - company:
     name: M3, Inc.
