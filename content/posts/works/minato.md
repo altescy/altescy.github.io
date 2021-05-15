@@ -46,7 +46,7 @@ with minato.open("s3://your_bucket/path/to/file", "w") as f:
     f.write("Create a new file on AWS S3!")
 
 # ローカルのファイルへの書き込み
-with minato.open("file:///path/to/local/file", "w") as f:
+with minato.open("/path/to/local/file", "w") as f:
     f.write("Create a new file on a local storage!")
 ```
 
@@ -91,7 +91,7 @@ Cache files were successfully deleted.
 $ minato update 2
 1 files will be updated:
   [2] https://example.com/path/to/large/file2
-Delete these caches? y/[n]: y
+Update these caches? y/[n]: y
 Cache files were successfully updated.
 ```
 
