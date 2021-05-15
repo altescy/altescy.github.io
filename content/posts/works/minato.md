@@ -1,5 +1,5 @@
 ---
-title: "オンラインファイルにアクセスするためのPythonライブラリ"
+title: "WebやS3上のファイルにアクセスするためのPythonライブラリ"
 date: 2021-05-16T17:00:00+09:00
 hero: "/images/posts/works/minato/hero.jpg"
 author:
@@ -7,7 +7,7 @@ author:
     image: "/images/logo.png"
 menu:
   sidebar:
-    name: "オンラインファイルにアクセスするためのPythonライブラリ"
+    name: "WebやS3上のファイルにアクセスするためのPythonライブラリ"
     identifier: minato
     parent: works
 ---
