@@ -10,6 +10,16 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Cookpad, Inc.
+    url: "https://info.cookpad.com"
+    location: Kanagawa, Japan
+    overview: Cookpad is a tech company building a community platform for people to share recipe ideas and cooking tips.
+  positions:
+  - designation:
+    start: April 2021
+    responsibilities:
+      - Build machine learning systems with NLP technologies.
+- company:
     name: Nara Institute of Science and Technology
     url: "https://www.naist.jp"
     location: Nara, Japan
@@ -18,6 +28,7 @@ experiences:
   positions:
   - designation: Master's Student at Watanabe / Matsumoto Lab
     start: April 2019
+    end: March 2021
     responsibilities:
     - I am focusing on information extraction from scientific papers.
     - Publish a paper about relation extraction from papers of material science at [ANLP 2020](https://www.anlp.jp/nlp2020/program.html#G6-3).

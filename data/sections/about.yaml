@@ -9,14 +9,16 @@ section:
 designation: Master's Student
 # your company information
 company:
-  name: Nara Institute of Science and Technology
-  url: "https://www.naist.jp/"
+  name: Cookpad Inc.
+  url: "https://info.cookpad.com/"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am currently studying computer science at Nara Institute of Science and Technology. My research topic is Natural Language Processing, especially Information Extraction from scientific papers. I am also interested in other machine learning and web technologies, such as MLOps, databases, IaaS, and so on.'
+summary: >-
+  I am a research engineer working at Cookpad Inc.
+  My research topic is natural language processing and machine learning technology.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

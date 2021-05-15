@@ -74,6 +74,6 @@ params:
       # phone: "+0123456789"
     # a summary of what you do
     summary:
-    - I am a Master's students in NAIST
+    - I am a research engineer working at Cookpad Inc.
     - I am interested in ML and NLP technologies
     - I work with Python and Go
