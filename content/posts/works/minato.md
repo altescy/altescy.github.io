@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "WebやS3上のファイルにアクセスするためのPythonライブラリ"
 date: 2021-05-16T17:00:00+09:00
 hero: "/images/posts/works/minato/hero.jpg"
