@@ -1,7 +1,6 @@
 ---
-draft: true
 title: "WebやS3上のファイルにアクセスするためのPythonライブラリ"
-date: 2021-05-16T17:00:00+09:00
+date: 2021-10-23T13:00:00+09:00
 hero: "/images/posts/works/minato/hero.jpg"
 author:
     name: "Yasuhiro Yamaguchi"
@@ -26,9 +25,7 @@ Minatoの機能は大きく以下の３つです:
 
 この記事ではこれらの機能と Minato の基本的な使い方について紹介します．
 
- <a href="https://github.com/altescy/minato"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/altescy/minato.png" width="460px"></a>
-
-
+<a href="https://github.com/altescy/minato"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/altescy/minato.png" width="460px"></a>
 
 ## ファイルの読み書き
 
@@ -38,7 +35,7 @@ Minatoを使うことで，通常のPythonでのローカルファイルへの�
 ```python
 import minato
 
-# Web上のファイルへの読み込み
+# Web上のファイルの読み込み
 with minato.open("http://example.com/path/to/file", "r") as f:
     content = f.read()
 
@@ -51,13 +48,11 @@ with minato.open("/path/to/local/file", "w") as f:
     f.write("Create a new file on a local storage!")
 ```
 
-
 ## キャッシュの利用
 
 Web上の大きなデータを読む場合に，ローカルにキャッシュを置くことで何度もファイルをダウンロードすることなくアクセスすることができます．
 Minatoでは `cached_path` というメソッドを使うことでURLからローカルのキャッシュへのパスを取得できます．
 キャッシュが存在していない場合は指定したURLのファイルが自動的にダウンロードされます．
-(AllenNLPで実装されている [`cached_path`](https://github.com/allenai/allennlp/blob/v2.4.0/allennlp/common/file_utils.py#L202) と同様な機能です)
 
 ```python
 import minato
@@ -67,6 +62,17 @@ with open(local_path) as fp:
     content = fp.read()
 ```
 
+キャッシュにアクセスする際は排他ロックを行うため，複数のプロセスから同時にアクセスがあっても問題なく動作します．
+たとえは，プロセスAがキャッシュのダウンロードを行っているタイミングで別のプロセスBが同じキャッシュにアクセスした場合，
+プロセスBはプロセスAがダウンロードを完了するまで待機します．プロセスAがロックを解除した時点でキャッシュファイルが生成されているので，プロセスBは同じリソースをダウンロードすることなくキャッシュを利用できます．
+
+また，ZIP形式などのアーカイブファイルの中身に直接アクセスすることもできます．
+以下のようにアーカイブファイル名の後ろに `!` を含めると，そのファイルを展開します．
+更にその後ろにアーカイブファイル内のパスを加えると，アーカイブファイルの中身を直接取得できます．
+
+```python
+filename = minato.cached_path("https://example.com/path/to/archive.zip!inner/path/to/file.txt")
+```
 
 ## キャッシュの管理
 
@@ -95,7 +101,6 @@ $ minato update 2
 Update these caches? y/[n]: y
 Cache files were successfully updated.
 ```
-
 
 ## おわりに
 
