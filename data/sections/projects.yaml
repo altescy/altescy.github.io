@@ -83,3 +83,17 @@ projects:
   url: "https://noisy-text.github.io/2020/pdf/2020.d200-1.11.pdf"
   summary: "A paper about a ML model for non-ingredient detection in online user-generated recipes."
   tags: ["academic", "nlp", "ml"]
+
+- name: minato
+  role: Developer
+  timeline: "May 2021 - Present"
+  repo: "https://github.com/altescy/minato"
+  summary: Python library for accessing and caching online files easily.
+  tags: ["hobby", "python"]
+
+- name: "クックパッドマートの多種多様な商品名から、扱いやすい「食材キーワード」を予測する"
+  role: Author
+  timeline: "May 2021 - August 2021"
+  url: https://techlife.cookpad.com/entry/2021/10/26/100000
+  summary: I developed a machine learning model and web API to predict keywords of products for EC service.
+  tags: ["professional", "python", "ml"]
