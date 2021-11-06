@@ -84,6 +84,13 @@ projects:
   summary: "A paper about a ML model for non-ingredient detection in online user-generated recipes."
   tags: ["academic", "nlp", "ml"]
 
+- name: "ラベルの不均衡を考慮したEnd-to-End情報抽出モデルの学習 [ANLP 2021]"
+  role: Author
+  timeline: "August 2020 - January 2021"
+  url: "https://www.anlp.jp/nlp2021/program.html#P2-17"
+  summary: "A paper about traing method for end-to-end information extraction model with imbalanced data learning technique."
+  tags: ["academic", "nlp", "ml"]
+
 - name: minato
   role: Developer
   timeline: "May 2021 - Present"
