@@ -73,7 +73,7 @@ projects:
 - name: "学術論文からのポリマー・溶媒の固有表現および溶解性の自動抽出 [ANLP 2020]"
   role: Author
   timeline: "July 2019 - January 2020"
-  url: "https://www.anlp.jp/nlp2020/program.html#G6-3"
+  url: "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/G6-3.pdf"
   summary: "A paper of named entity and polymer-solvent relation extraction from material science paper."
   tags: ["academic", "nlp", "ml"]
 
@@ -87,7 +87,7 @@ projects:
 - name: "ラベルの不均衡を考慮したEnd-to-End情報抽出モデルの学習 [ANLP 2021]"
   role: Author
   timeline: "August 2020 - January 2021"
-  url: "https://www.anlp.jp/nlp2021/program.html#P2-17"
+  url: "https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P2-17.pdf"
   summary: "A paper about traing method for end-to-end information extraction model with imbalanced data learning technique."
   tags: ["academic", "nlp", "ml"]
 
