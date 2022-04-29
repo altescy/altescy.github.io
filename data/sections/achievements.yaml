@@ -9,6 +9,12 @@ section:
 
 # Your achievements achievements
 achievements:
+- title: 委員特別賞 @ NLP2022
+  image: images/achievements/nlp2022.jpeg
+  summary: |
+    We won a prize of ["委員特別賞"](https://www.anlp.jp/nlp2022/award.html#PT3-16) at NLP2022
+    with a paper of "https://www.anlp.jp/nlp2022/award.html#PT3-16"
+
 - title: ISUCON 8 Final Contest
   image: images/achievements/isucon8_final.jpeg
   summary: "Advance to the [ISUCON 8](http://isucon.net/archives/52388756.html) finals. The blog post is [here](http://altescy.hatenablog.com/entry/2018/10/27/165019)."

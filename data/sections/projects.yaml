@@ -104,3 +104,12 @@ projects:
   url: https://techlife.cookpad.com/entry/2021/10/26/100000
   summary: I developed a machine learning model and web API to predict keywords of products for EC service.
   tags: ["professional", "python", "ml"]
+
+- name: "単語埋め込みを利用した商品に対するキーワードの予測"
+  role: Author
+  timeline: "August 2021 - January 2022"
+  url: https://www.anlp.jp/nlp2022/proceedings_2022/pdf_dir/PT3-16.pdf
+  summary: |
+    We propose a neural title-keyword matching method for EC services which is also useful in unsupervised way.
+    This paper won a prize at NLP2022.
+  tags: ["academic", "nlp", "ml"]
