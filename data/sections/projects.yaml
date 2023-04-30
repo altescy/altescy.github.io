@@ -113,3 +113,19 @@ projects:
     We propose a neural title-keyword matching method for EC services which is also useful in unsupervised way.
     This paper won a prize at NLP2022.
   tags: ["academic", "nlp", "ml"]
+
+- name: "レシピに含まれる不使用な材料等に関する記述の抽出"
+  role: Author
+  timeline: "September 2022 - December 2022"
+  url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q2-3.pdf
+  summary:
+    We propose a new task and model to extract unused ingredients/tools/procedure from user-generated recipes.
+  tags: ["academic", "nlp", "ml"]
+
+- name: "collatable"
+  role: Developer
+  timeline: "January 2023 -"
+  url: https://github.com/altescy/collatable
+  summary:
+    Python library to construct batched tensors for any machine learning frameworks.
+  tags: ["hobby", "python", "ml"]
